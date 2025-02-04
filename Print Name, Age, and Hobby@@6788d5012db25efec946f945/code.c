@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    char Name,Hobby;
+    char Name[100],Hobby[100];
     int Age;
     scanf("%s %s",Name,Hobby);
     scanf("%d",Age);
