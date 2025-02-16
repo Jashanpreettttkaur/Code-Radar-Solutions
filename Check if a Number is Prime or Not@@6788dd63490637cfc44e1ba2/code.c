@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    int n,a,b=0;
+    int n;
     scanf("%d",&n);
-    if(n=2&& n=13){
+    if(n=2 && n=13){
         printf("Prime");
     }
     else if (n=3 && n=11){
