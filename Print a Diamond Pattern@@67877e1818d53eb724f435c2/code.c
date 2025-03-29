@@ -14,10 +14,10 @@ int main(){
         }
         if(i<md){
             nsp--;
-            nst++;
+            nst+=2;
         }else{
             nsp++;
-            nst--;
+            nst-=2;
         }
         printf("\n");
     }
