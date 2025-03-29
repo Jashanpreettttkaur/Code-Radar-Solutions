@@ -14,7 +14,7 @@ int main(){
         }
         if(i<md){
             nsp--;
-            nsp++;
+            nst++;
         }else{
             nsp++;
             nst--;
