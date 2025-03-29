@@ -2,7 +2,7 @@
 int main(){
     int n;
     int nsp=n-1;
-    int nst=n;
+    int nst=1;
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
         for(int j=1;j<=nsp;j++){
