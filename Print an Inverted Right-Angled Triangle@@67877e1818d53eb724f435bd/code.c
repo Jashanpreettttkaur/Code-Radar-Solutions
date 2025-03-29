@@ -10,6 +10,7 @@ int main(){
             printf("  ");
         }
         nsp++;
+        printf("\n");
         
             return 0;
         }
