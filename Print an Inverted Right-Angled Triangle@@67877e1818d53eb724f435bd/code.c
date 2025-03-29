@@ -2,10 +2,12 @@
 int main(){
     int n;
     scanf("%d",&n);
+    int nst=n;
     for(int i=1;i<=n;i++){
-        for(int j=n;j>=1;j--){
+        for(int j=1;j>=nst;j++){
             printf("* ");
             return 0;
+            nst--;
         }
     }
 }
