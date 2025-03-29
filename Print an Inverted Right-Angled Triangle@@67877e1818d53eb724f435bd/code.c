@@ -2,22 +2,10 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int nsp=0;
     for(int i=1;i<=n;i++){
-        for(int j=1;j<=n;j++){
+        for(int j=n;j>=1;j--){
             printf("* ");
-        // for(int k=1;k<=nsp;k++){
-        //     printf("  ");
-        // }
-       
-        // printf("\n");
-        
-        //     return 0;
-        
+            return 0;
+        }
     }
-    
-    }   
-     printf("\n");
-        
-            return 0;    
 }
