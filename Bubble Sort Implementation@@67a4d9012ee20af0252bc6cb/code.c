@@ -12,13 +12,13 @@ void bubblesort(int arr[],int n){
     return;
 }
 void printarry(int arr[],int n){
-    for(int i=0;i<=n;i++){
+    for(int i=0;i<n;i++){
         printf("%d",arr[i]);
     }
     printf("\n");
     return;
 }
-int main(){
+int main() {
     int n;
     scanf("%d",&n);
     int arr[n];
