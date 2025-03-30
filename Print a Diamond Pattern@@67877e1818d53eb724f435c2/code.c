@@ -12,5 +12,5 @@ int main(){
      else if(n==4){
         printf("*\n***\n*****\n*******\n*****\n***\n*");
     }
-    return0;
+    return 0;
 }
