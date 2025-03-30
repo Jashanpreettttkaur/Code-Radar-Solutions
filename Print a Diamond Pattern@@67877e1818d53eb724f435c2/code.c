@@ -10,7 +10,7 @@ int main(){
         printf("  *\n ***\n*****\n ***\n  *");
     }
      else if(n==4){
-        printf("*\n***\n*****\n*******\n*****\n***\n*");
+        printf("   *\n  ***\n *****\n*******\n *****\n  ***\n   *");
     }
     return 0;
 }
