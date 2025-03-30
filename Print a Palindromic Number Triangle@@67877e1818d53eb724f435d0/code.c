@@ -7,11 +7,11 @@ int main(){
             printf(" ");
         }
         for(int k=1;k<=i;k++){
-            printf("%d",k);
+            printf("%C",k+64);
         }int a=i;
         for(int l=i;l>1;l--){
            --a;
-            printf("%d",a);
+            printf("%C",a+64);
             
             
         }
