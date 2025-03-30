@@ -9,14 +9,14 @@ int bubblesort(int arr[],int n){
             }
         }
     }
-    return;
+    return tem;
 }
 int printArray(int arr[],int n){
     for(int i=0;i<n;i++){
         printf("%d",arr[i]);
     }
     printf("\n");
-    return;
+    return arr[i];
 }
 // int main() {
 //     int n;
